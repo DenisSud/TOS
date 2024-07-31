@@ -1,0 +1,12 @@
+[package]
+name = "text_classification"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+linfa = "0.7"
+linfa-bayes = "0.7"
+linfa-preprocessing = "0.7"
+polars = { version = "0.41", features = ["csv"] }
+ndarray = "0.15"
+ndarray-rand = "0.14"
